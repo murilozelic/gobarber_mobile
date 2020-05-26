@@ -1,9 +1,5 @@
 import React, { useMemo } from 'react';
-import {
-  useNavigation,
-  useRoute,
-  CommonActions,
-} from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import { formatRelative, parseISO } from 'date-fns';
 import pt from 'date-fns/locale/pt-BR';
